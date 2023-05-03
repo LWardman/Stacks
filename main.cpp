@@ -2,7 +2,7 @@
 #include <deque>
 #include <string>
 
-bool ValidParentheses(std::string s)
+bool ValidParentheses(const std::string& s)
 {
     std::deque<char> Stack;
 
